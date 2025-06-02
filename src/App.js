@@ -3,7 +3,7 @@ import './App.css';
 import Header from "./component/header/Header"
 import MyNavbar from './component/header/Navbar';
 import CarouselComponent from './component/header/Carousel';
-import TeamCard from './component/header/Teamcard';
+// import TeamCard from './component/header/Teamcard';
 
 
 
@@ -19,12 +19,14 @@ const teamCard = [
 ]
 
 function App() {
+
+
   return (
     <div>
     <Header/>  
     <MyNavbar/>
     <CarouselComponent/> 
-    <TeamCard/> 
+    {/* <TeamCard/> */}
 
     </div>
   );
