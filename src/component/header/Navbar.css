@@ -1,0 +1,13 @@
+
+.custom-dropdown .dropdown-menu {
+  background-color: black; 
+}
+
+.custom-dropdown .dropdown-item {
+  color: white;
+}
+
+.custom-dropdown .dropdown-item:hover {
+  background-color: #0ba5d3; 
+  color: #fff;
+}
