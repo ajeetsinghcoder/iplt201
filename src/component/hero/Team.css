@@ -1,0 +1,63 @@
+.points-card {
+  background: white;
+  border-radius: 15px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.1);
+  padding: 20px;
+  margin: 10px;
+  width: 250px;
+  flex: 1 1 250px;
+  text-align: center;
+}
+
+.rank {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.team-name {
+  font-weight: bold;
+  margin: 10px 0;
+}
+
+.team-logo {
+  height: 80px;
+  width: 80px;
+  object-fit: contain;
+  margin: 10px auto;
+}
+
+.stats p {
+  margin: 4px 0;
+}
+
+.nrr {
+  color: green;
+  font-weight: bold;
+}
+
+.recent-form {
+  margin-top: 10px;
+}
+
+.form-indicators {
+  display: flex;
+  justify-content: center;
+  gap: 5px;
+  margin-top: 5px;
+}
+
+.form {
+  padding: 5px 10px;
+  border-radius: 50%;
+  border: 1px solid #ccc;
+}
+
+.form.w { border-color: green; color: green; }
+.form.l { border-color: red; color: red; }
+.form.n { border-color: gray; color: gray; }
+
+@media (max-width: 768px) {
+  .points-card {
+    width: 100%;
+  }
+}

@@ -5,12 +5,12 @@ import MyNavbar from './component/header/Navbar';
 import CarouselComponent from './component/header/Carousel';
 import ShortsCarousel from "./component/header/Teamcard";
 import Fpoa from "./component/hero/Fpoa";
-// import Card from './component/hero/Card';
+import Card from './component/hero/Card';
+import cardData from './component/hero/Carddata';
+// import PointsCard from './component/hero/Teamdata';
+import TeamCard from './component/hero/Teamdata';
+import TeamCarddata from './component/hero/Teamcarddata';
 
-
-
-
-// import card1 from './asstes/images/iplslider2.jpg'
 
 
 
@@ -26,7 +26,24 @@ function App() {
       <ShortsCarousel />
     </div>
     <Fpoa/>
-    {/* <Card/> */}
+    <div className="card-container">
+      {cardData.map((item) => (
+        <Card
+          key={item.id}
+          title={item.title}
+          description={item.description}
+          image={item.image}
+        />
+      ))}
+    </div>
+   <div className="points-table">
+      <h2 className='pl-3'>Points Table</h2>
+      <div className="card-container">
+        {TeamCarddata.map((card, index) => (
+          <TeamCard key={index} {...card} />
+        ))}
+      </div>
+    </div>
     </div>
   );
 }
