@@ -10,6 +10,7 @@ import cardData from './component/hero/Carddata';
 // import PointsCard from './component/hero/Teamdata';
 import TeamCard from './component/hero/Teamdata';
 import TeamCarddata from './component/hero/Teamcarddata';
+import TopPerformers from './component/hero/Topperformers';
 
 
 
@@ -44,6 +45,7 @@ function App() {
         ))}
       </div>
     </div>
+    <TopPerformers/>
     </div>
   );
 }

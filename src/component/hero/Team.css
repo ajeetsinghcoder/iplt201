@@ -8,6 +8,9 @@
   flex: 1 1 250px;
   text-align: center;
 }
+.points-card:hover{
+  transform: scale(1.03);
+}
 
 .rank {
   font-size: 2rem;
@@ -56,8 +59,33 @@
 .form.l { border-color: red; color: red; }
 .form.n { border-color: gray; color: gray; }
 
-@media (max-width: 768px) {
+@media (max-width: 300px) {
   .points-card {
+    display: flex;               
+    flex-direction: row;        
+    align-items: flex-start;
+    padding: 12px;
+    flex-wrap: wrap; 
+  }
+
+  .team-logo {
+    margin: 8px 0;
+  }
+
+  .stats {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin: 10px 0;
+  }
+
+  .recent-form {
     width: 100%;
+  }
+
+  .form-indicators {
+    display: flex;
+    flex-wrap: wrap;
   }
 }
