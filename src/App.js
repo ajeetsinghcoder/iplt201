@@ -11,6 +11,7 @@ import cardData from './component/hero/Carddata';
 import TeamCard from './component/hero/Teamdata';
 import TeamCarddata from './component/hero/Teamcarddata';
 import TopPerformers from './component/hero/Topperformers';
+import CustomCarousel from './component/hero/CustomeCarsoule';
 
 
 
@@ -46,6 +47,7 @@ function App() {
       </div>
     </div>
     <TopPerformers/>
+    <CustomCarousel/>
     </div>
   );
 }
