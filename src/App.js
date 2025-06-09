@@ -13,7 +13,10 @@ import TeamCarddata from './component/hero/Teamcarddata';
 import TopPerformers from './component/hero/Topperformers';
 import CustomCarousel from './component/hero/CustomeCarsoule';
 
+import IplHighlightSection from './component/hero/Iplhlit';
+import MatchCard from './component/hero/MatchcardList';
 
+import Footer from './component/footer/Footer';
 
 
 
@@ -48,6 +51,9 @@ function App() {
     </div>
     <TopPerformers/>
     <CustomCarousel/>
+    <IplHighlightSection/>
+    <MatchCard/>
+    <Footer/>
     </div>
   );
 }

@@ -1,0 +1,129 @@
+.matchcard-container {
+  width: 320px;
+  background: #fff;
+  border-radius: 18px;
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.15);
+  overflow: hidden;
+  margin: 20px;
+  font-family: 'Segoe UI', sans-serif;
+  transition: transform 0.3s ease;
+}
+
+.matchcard-container:hover {
+  transform: scale(1.02);
+}
+
+.matchcard-topbar {
+  background-color: #333;
+  color: #fff;
+  padding: 5px 15px;
+  font-size: 14px;
+  font-weight: bold;
+  position: relative;
+  width: fit-content;
+  border-top-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.matchcard-score {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 15px 10px 5px;
+  border-bottom: 1px solid #ddd;
+}
+
+.team {
+  text-align: center;
+}
+
+.team img {
+  width: 40px;
+  height: 40px;
+  margin-bottom: 5px;
+}
+
+.team h2 {
+  margin: 0;
+  font-size: 20px;
+  color: #222;
+}
+
+.team p {
+  margin: 0;
+  font-size: 14px;
+  color: #666;
+}
+
+.vs {
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.winner {
+  color: #0b1f59;
+  text-align: center;
+  font-size: 16px;
+  font-weight: bold;
+  padding: 10px 15px;
+  line-height: 1.4;
+}
+
+.matchcard-venue {
+  text-align: center;
+  padding: 5px 15px;
+  border-top: 1px solid #eee;
+  border-bottom: 1px solid #eee;
+}
+
+.matchcard-venue strong {
+  display: block;
+  margin-bottom: 4px;
+  color: #111;
+}
+
+.matchcard-venue p {
+  margin: 0;
+  font-size: 13px;
+  color: #666;
+}
+
+.matchcard-player {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 15px;
+}
+
+.matchcard-player img {
+  width: 60px;
+  height: 60px;
+  object-fit: contain;
+}
+
+.matchcard-player div {
+  display: flex;
+  flex-direction: column;
+}
+
+.matchcard-player strong {
+  font-size: 15px;
+  color: #000;
+}
+
+.matchcard-player p {
+  margin: 2px 0;
+  font-size: 13px;
+}
+
+.motm {
+  font-size: 12px;
+  color: #f44336;
+  font-weight: bold;
+  border: 1px solid #f44336;
+  border-radius: 4px;
+  padding: 2px 6px;
+  width: fit-content;
+  margin-top: 4px;
+}
+

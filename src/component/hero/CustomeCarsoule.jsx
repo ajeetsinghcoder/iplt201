@@ -27,6 +27,7 @@ const CustomeCarsoule = () => {
     return () => clearInterval(intervalId);
   }, []);
 
+
   return (
     <div className="customc-container"> 
       <h2 className="customc-heading">2025</h2>
@@ -45,9 +46,13 @@ const CustomeCarsoule = () => {
 
         {/* center */}
         <div className="customc-centerbox">
-          <h1 className="customc-heading">1294</h1>
-          <p className="customc-para">Four</p>
-        </div>
+      <img
+        src={Imagesc[currentIndex % Imagesc.length]}
+        alt={`Center Slide ${currentIndex}`}
+        id="imgSlidCenter"
+        style={{ width: '100%', borderRadius: '10px' }}
+       />
+      </div>
 
         {/* right */}
         <div className="customc-leftbox">

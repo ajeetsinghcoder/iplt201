@@ -33,19 +33,19 @@
 
 .customc-container .customc-centerbox{
     /* border: 5px solid black; */
-    height: 200px;
+    height: 190px;
     width: 55%;
-    padding: 20px;
+    /* padding: 20px; */
     margin: 0 auto;
     background-color: #CD5656;
     color: white;
     border-radius: 12px;
     text-align: center;
-    padding: 30px;
-    
-   
 }
 
+.customc-centerbox img{
+  height: 200px;
+}
 .customc-container .customc-body{
     display: flex;
     
