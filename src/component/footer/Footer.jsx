@@ -1,5 +1,8 @@
 import { FaFacebookF, FaTwitter, FaInstagram, FaYoutube } from 'react-icons/fa';
 import "./Footer.css";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faCopyright } from '@fortawesome/free-solid-svg-icons';
+
 
 import Tata from "../../asstes/images/ipl.png";
 import My11Circle from "../../asstes/images/my11circle.jpg";
@@ -92,6 +95,11 @@ const Footer = ()=>{
             <li>Privacy Policy</li>
             <li>Terms & Conditions</li>
           </ul>
+        </div>
+        <div className="site-footer">
+        <p>
+        <FontAwesomeIcon icon={faCopyright} /> 2025 BCCI.TV
+         </p>
         </div>
       </div>
     </footer>

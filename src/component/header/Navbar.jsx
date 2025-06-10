@@ -22,8 +22,8 @@ const MyNavbar = () => {
 
             {/* Home Dropdown */}
             <NavDropdown title="Home" id="home-dropdown" className="custom-dropdown">
-              <NavDropdown.Item href="#home/1">Home 1</NavDropdown.Item>
-              <NavDropdown.Item href="#home/2">Home 2</NavDropdown.Item>
+              {/* <NavDropdown.Item href="#home/1">Home 1</NavDropdown.Item>
+              <NavDropdown.Item href="#home/2">Home 2</NavDropdown.Item> */}
             </NavDropdown>
 
             {/* About Dropdown */}
